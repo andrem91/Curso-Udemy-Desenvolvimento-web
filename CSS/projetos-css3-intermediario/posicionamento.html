@@ -23,7 +23,7 @@
 		}
 		.fixed {
 			border: 1px solid red;
-			background: #f2f2f2;
+			background: red;
 			position: fixed;
 			bottom: 0px;
 			right: 0px;
@@ -31,17 +31,18 @@
 		}
 		.absolute {
 			border: 1px solid red;
-			background: #f2f2f2;
+			background: green;
 			position: absolute;
-			top: 80px;
-			right: 80px;
+			top: 50px;
+			right: 50px;
 		}
 		.relative {
 			border: 1px solid red;
+			background: blue;
 			position: relative;
 			/*top, right, bottom, left*/
-			top: 0px;
-			left: 0px;
+			top: 50px;
+			left: 50px;
 		}
 
 	</style>
@@ -51,29 +52,29 @@
 
 	<div id="container">
 		<h1>Posicionamentos</h1>
-		<p>
-			P1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<p class="absolute">
+			P1 absolute Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.
 		</p>
 
 		<p class="fixed">
-			P2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			P2 fixed Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+		</p>
+
+		<p class="relative">
+			P3 relative Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.
 		</p>
 
 		<p>
-			P3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.
-		</p>
-
-		<p>
-			P3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			P4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.

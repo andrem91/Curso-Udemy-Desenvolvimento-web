@@ -1,0 +1,19 @@
+/************************
+Herança e especificidade*/
+
+/* p {
+    color: red !important;
+} */
+#p2 {
+    color: brown;
+}
+p.p1 {
+    color: yellow;
+}
+.pagina {
+    color: blue;
+}
+
+p {
+    color: green;
+}

@@ -4,13 +4,31 @@
 	<meta charset="utf-8">
 	<title>Elementos Flutuantes na prática</title>
 	<style type="text/css">
-
+		* {
+			margin: 0
+		}
 		body {
 			background: #f4f4f4;
+			font-size: 1em;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		h2 {
+			margin: 20px;
+			text-align: center;
+			color: red;
 		}
 
 		#principal {
 			width: 920px;
+			margin: 0 auto;
+		}
+		#titulo {
+			background: yellow;
+			text-align: center;
+			padding: 60px;
+			color: green;
+			float: left;
+			width: 800px;
 		}
 		.noticia {
 			background: #e5e5e5;
@@ -19,11 +37,19 @@
 			margin: 7px;
 			float: left;
 		}
-		.imagem-galeria {
+		#imagem-grande {
 			background: white;
-			width: 265px;
+			width: 700px;
+			height: 300px;
 			padding: 5px;
 			float: left;
+			margin: 15px;
+		}
+		.imagem-galeria {
+			background: white;
+			width: 120px;
+			padding: 5px;
+			float: right;
 			margin: 15px;
 		}
 		.clear {
@@ -35,9 +61,12 @@
 </head>
 <body>
 
-	<div id="principal">
-		<div>
 
+	<div id="principal">
+		<div id="titulo">
+			<h1>Teste de Elementos Flutuantes</h1>
+		</div>
+		<div>
 			<div class="noticia">
 				<h2>Título da notícia1</h2>
 				<p>
@@ -69,24 +98,24 @@
 
 		<div>
 			
-			<div class="imagem-galeria">
+			<div id="imagem-grande">
 				<img src="imagens/imagem1.png">
+				<p>Resumo da imagem principal</p>
+			</div>
+			<div class="imagem-galeria">
+				<img src="imagens/imagem2.png" height="100px">
 				<p>Resumo da imagem</p>
 			</div>
 			<div class="imagem-galeria">
-				<img src="imagens/imagem2.png">
+				<img src="imagens/imagem3.png" height="100px">
 				<p>Resumo da imagem</p>
 			</div>
 			<div class="imagem-galeria">
-				<img src="imagens/imagem3.png">
+				<img src="imagens/imagem4.png" height="100px">
 				<p>Resumo da imagem</p>
 			</div>
 			<div class="imagem-galeria">
-				<img src="imagens/imagem4.png">
-				<p>Resumo da imagem</p>
-			</div>
-			<div class="imagem-galeria">
-				<img src="imagens/imagem5.png">
+				<img src="imagens/imagem5.png" height="100px">
 				<p>Resumo da imagem</p>
 			</div>
 
