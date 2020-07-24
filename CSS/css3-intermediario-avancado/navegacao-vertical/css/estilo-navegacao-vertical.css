@@ -1,0 +1,34 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a {
+    display: block;
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 40px;
+    background: #f7b600 url(../imagens/menu.png) no-repeat bottom left;
+    text-indent: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
+    color: white;
+    background-position: bottom right;
+    background-color: #f99200;
+}
+#home #navegacao .home a, 
+#noticias #navegacao .noticias a, 
+#servicos #navegacao .servicos a, 
+#games #navegacao .games a, 
+#videos #navegacao .videos a, 
+#sobre #navegacao .sobre a,
+#contato #navegacao .contato a {
+    color: white;
+    background-position: bottom right;
+    background-color: #f99200;
+}

@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    /* border: 1px solid black; */
+    display: block;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-indent: 70px;
+    text-decoration: none;
+    color: black;
+    background: rgb(238, 210, 173);
+}
+
+ul a:hover {
+    color: white;
+    background: rgb(172, 112, 33);
+}
