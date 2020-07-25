@@ -1,0 +1,127 @@
+/* ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a {
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    background: #f7b600 url(../imagens/menu.png) no-repeat bottom left;
+    text-indent: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
+    color: white;
+    background-position: bottom right;
+    background-color: #f99200;
+}
+#home #navegacao .home a, 
+#noticias #navegacao .noticias a, 
+#servicos #navegacao .servicos a, 
+#games #navegacao .games a, 
+#videos #navegacao .videos a, 
+#sobre #navegacao .sobre a,
+#contato #navegacao .contato a {
+    color: white;
+    background-position: bottom right;
+    background-color: #f99200;
+} */
+/* 
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+    width: 780px;
+    float: left;
+}
+ul li {
+    float: left;
+}
+ul a {
+    display: block;
+    line-height: 2em;
+    padding: 0 2em;
+    text-decoration: none;
+    color: white;
+    background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+    background: none;
+}
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
+#home #navegacao .home a, 
+#noticias #navegacao .noticias a, 
+#servicos #navegacao .servicos a, 
+#games #navegacao .games a, 
+#videos #navegacao .videos a, 
+#sobre #navegacao .sobre a,
+#contato #navegacao .contato a {
+    color: #085662;
+    background: #44cade;
+} */
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 807px;
+    margin: 0 auto;
+    padding: 0;
+    background: grey;
+}
+div#fundo {
+    background: #fff;
+    height: 500px;
+    padding: 5px;
+}
+h1 {
+    background: yellow;
+    color: red;
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 820px;
+}
+
+ul li {
+    float: left;
+    background: url(../imagens/aba-direita.png) no-repeat top right;
+}
+ul a {
+    display: block;
+    line-height: 3em;
+    padding: 0 2em;
+    text-decoration: none;
+    background: url(../imagens/aba-esquerda.png) no-repeat top left;
+    color: #fff;
+}
+ul li:hover {
+    background: url(../imagens/aba-direita-atual.png) no-repeat top right;
+}
+ul a:hover {
+    color: #894a1f;
+    background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+ul #atual {
+    background: url(../imagens/aba-direita-atual.png) no-repeat top right;
+}
+#atual a {
+    color: #894a1f;
+    background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+.clear {
+    clear: both;
+}
