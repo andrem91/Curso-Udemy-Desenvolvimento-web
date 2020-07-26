@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 #container {
-    width: 85%; /*720px*/
+    width: 960px; /*720px*/
     margin: 0 auto;
-    background: #fff;
+    background: #fff url(../imagens/coluna.png) repeat-y top left;
     min-width: 720px;
     max-width: 1280px;
 }
@@ -16,9 +16,9 @@ h1 {
 #marca {
     width: 100%;
     text-align: center;
-    line-height: 100px;
-    background: #9e9e9e;
-    height: 100px;
+    line-height: 200px;
+    background: #215891 url(../imagens/cabecalho2.jpg) no-repeat center;
+    height: 200px;
 }
 #conteudo {
     width: 75%; /*520px*/
@@ -28,6 +28,16 @@ h1 {
     float: left;
     width: 64%; /*320px*/
 }
+img#img-noticia {
+    width: 94%;
+    padding: 2px;
+    max-width: 600px;
+}
+/* #imagem {
+    width: 90%;
+    overflow: hidden;
+} */
+
 #secundario {
     float: right;
     width: 34%; /*180px*/
@@ -43,7 +53,7 @@ h1 {
     width: 23%; /*180px*/
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #d1d1d1;
+    /* background-color: #d1d1d1; */
 }
 #navegacao ul {
     list-style: none;
@@ -53,18 +63,18 @@ h1 {
 #navegacao ul a {
     display: block;
     text-decoration: none;
-    background: darkgray;
-    color: white;
+    /* background: darkgray; */
+    color: black;
     line-height: 40px;
     text-indent: 40px;
 }
 #navegacao ul a:hover {
     background: lightsteelblue;
-    color: black;
+    color: white;
 }
 #navegacao #atual a {
     background: lightsteelblue;
-    color: black;
+    color: white;
 }
 #rodape {
     clear: both;
