@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    padding: 10px;
+
+
+}
+header #cabecalho {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    border: 1px solid green;
+    background: #f2f2f2;
+    padding: 10px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+}
+
+article {
+    background: orange;
+    width: 900px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+section {
+    border-top: 1px dotted white;
+}
+
+time {
+    font-weight: bold;
+}
+
+aside {
+    margin: 10px auto;
+    width: 900px;
+    padding: 10px;
+    background: blue;
+    color: white;
+}
+
+footer {
+    background: #ccc;
+    text-align: center;
+}
