@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Aritmético - JavaScript</title>
+    <script>
+
+        var n1 = parseFloat(prompt('Digite um número'))
+
+        var n2 = parseFloat(prompt('Digite outro número'))
+
+        var operacao = prompt('Digite a operação (SOMA ou SUBTRAÇÃO)').toUpperCase()
+            
+        function calculo(n1, n2, operacao){
+
+            var resultado = 0
+            
+            if(operacao == 'SOMA') {
+                resultado = n1 + n2
+            } else if(operacao == 'SUBTRAÇÃO') {
+                resultado = n1 - n2
+            }else {
+                resultado = 'Dados incorretos'
+            }
+
+            return resultado
+        }
+
+        document.write(calculo(n1, n2, operacao))
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

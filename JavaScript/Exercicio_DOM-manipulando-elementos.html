@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulando elementos - JavaScript</title>
+   
+
+</head>
+<body>
+
+    <h1>Manipulando DOM</h1>
+    <input type="text" id="box">
+
+    <script>
+
+        var box = document.getElementById('box')
+        
+        box.onfocus = function() {
+            box.style.backgroundColor = "yellow"
+        }
+
+        box.onblur = function() {
+
+            var caracteres = box.value.length
+            
+            if (caracteres == "0") {
+                box.style.backgroundColor = "white"
+            }else if(caracteres < 3) {
+                box.style.backgroundColor = "red"
+            } else {
+                box.style.backgroundColor = "greenyellow"
+            }
+        }
+    </script>
+</body>
+</html>

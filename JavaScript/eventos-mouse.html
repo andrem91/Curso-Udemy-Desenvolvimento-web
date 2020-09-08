@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de Mouse - JavaScript</title>
+    <style>
+        #box {
+            background: #ccc;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+    <script>
+        function acao1() {
+            alert('Elemento foi clicado')
+        }
+
+        function acao2() {
+            alert('O cursor do mouse deixou a região do elemento')
+        }
+    </script>
+
+</head>
+<body>
+    //eventos: onclick, ondbclick onmouseup onmouseover onmouseout
+    <div onclick="acao1()" onmouseout="acao2()" id="box"></div>
+</body>
+</html>

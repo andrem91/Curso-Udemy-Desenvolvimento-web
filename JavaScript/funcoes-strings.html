@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções para Manupular Strings - JavaScript</title>
+    <script>
+        
+        var nome = ' André Pereira Marques '
+        //Propriedade length
+        document.write(nome.length + '<br>')//length retorna a quantidade de caracteres
+        document.write(nome.charAt(7) + '<br>')//charAt retorna o caracter contido no indice que escolher
+        document.write(nome.indexOf('M') + '<br>')//indexOf retorna a posição do caracter na primeira ocorrencia da string
+        document.write(nome.replace('Pereira', 'Amaral') + '<br>')//permite substituir parte de texto dentro de uma string
+        document.write(nome.substr(15, 7) + '<br>')//recuperar uma parte da string
+        document.write(nome.toLowerCase() + '<br>')//converte todos os caracteres de uma string para caixa baixa
+        document.write(nome.toUpperCase() + '<br>')//converte todos os caracteres de uma string para caixa alta
+        document.write('-' + nome.trim() + '-' + '<br>')//remove espaços nas extremidades da string
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
